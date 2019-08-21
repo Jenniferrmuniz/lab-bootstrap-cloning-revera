@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: inherit;
 }
 .navigation{
     display:flex;
@@ -15,7 +16,9 @@ body{
     padding: 10px;
 }
 
-
+.pic-section{
+    margin:0;
+}
 .info-slider{
     display:flex;
     position: absolute;
@@ -35,10 +38,12 @@ body{
 }
 
 #red-info{
-    background-color: red;
-    width: 100%;
+    background-color: #ed564a;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    width: 100vw;
     margin: 0px;
-    padding: 75px;
+    padding: 50px;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -47,4 +52,103 @@ body{
 
 .content{
     text-align: center;
+    color: #fff;
+    padding: 15px;
 }
+
+#project-section{
+    display:flex;
+    flex-direction: column;
+}
+
+#project-section-title{
+    padding: 20px;
+    align-self: flex-start;
+    width: 80vw;
+    margin-left: 100px;
+}
+
+#project-section-title p{
+    color: #aaa;
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+}
+
+#project-pics-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    align-self: center;
+}
+
+.project-link{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    color: black;
+}
+
+.project-link img{
+    width: 200px;
+}
+
+#article-section{
+    display:flex;
+    flex-direction: column;
+}
+
+#article-section-title{
+    padding: 20px;
+    align-self: flex-start;
+    width: 80vw;
+    margin-left: 100px;
+}
+
+#article-section-title p{
+    color: #aaa;
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+}
+
+#article-section-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    align-self: center;
+}
+
+.article-section-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.article-section-item span{
+    font-weight: inherit;
+    color: #606060;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.article-section-item span a{
+    color:red;
+}
+
+.article-link{
+    margin-bottom: 10px;
+    color: black;
+}
+
+.article-link img{
+    width: 200px;
+    padding: 5px;
+}
+
